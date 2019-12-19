@@ -1,28 +1,18 @@
-<!DOCTYPE html> 
 <html> 
-  
 <head> 
-    <title> 
-        04
-    </title> 
+    <title>  04 </title> 
 </head> 
   
-<body> 
-    Input tahun: <input type="text" id = "tahun"/> 
-      
-    <input type="button" id="button" onClick="isKabisat()"
-            value="Kabisat ?"> 
-      
-    <p id="GFG"></p> 
+    <body>
+    Input  : <p id="tahoen"></p>
+    Output : <p id="kabisatKah"></p> 
       
     <script> 
-        function isKabisat() { 
-            var tahun= document.getElementById("tahun").value; 
-              
-            document.getElementById("GFG").innerHTML  
-                = (tahun % 100 === 0) ? (tahun % 400 === 0) : (tahun % 4 === 0); 
-        } 
+
+        const tahun = prompt ("Masukan tahun : ", 1999); 
+        document.getElementById("tahoen") .innerHTML=(tahun);
+        document.getElementById("kabisatKah").innerHTML = (tahun % 100 === 0) ? (tahun % 400 === 0) : (tahun % 4 === 0); 
+
     </script> 
-</body> 
-  
+    </body> 
 </html> 
