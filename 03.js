@@ -7,5 +7,5 @@ const check = (num) => {
     console.log("Output : odd");
   }
 }
-check(90);
-check(35);
+check(90); //Output : even
+check(35); //Output : odd
