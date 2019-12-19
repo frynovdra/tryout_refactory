@@ -5,7 +5,6 @@
         } 
         else if (i % 5 === 0) {
             console.log(i + '. Ganjil Kelipatan Lima');
-
         else if (i % 2 === 0) { 
             if (i % 5 === 0) {
             console.log(i + '. Genap Kelipatan Lima');
