@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <head>
+            <title>09</title>
+        </head>
+        <script type="text/javascript">
+            const kata = ['Saya','ingin','makan','nasi','goreng'];
+            const kataBaru = [];
+            
+            document.write("Sebelum : " + kata.slice(0,6).join(' ') );
+            document.write("<br />");
+
+            for(let i = kata.length; i >= 0; i--){
+                kataBaru.push(kata[i]);
+            }
+            document.write("Sesudah : " + kataBaru.slice(0,6).join(' '));
+        </script>
+
+    </body>
+</html>
