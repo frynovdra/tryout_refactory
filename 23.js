@@ -1,21 +1,15 @@
-class Queue {
-    constructor() {
-      this.queue = []
-    }
-    enqueue(element) {
-      this.queue.push(element)
-    }
-    dequeue() {
-      if (this.isEmpty()) {
-          return 'Queue is empty' }
-      return this.queue.shift()
-    }
-    peek() {
-      if (this.isEmpty()) {
-          return 'Queue is empty'}
-      return this.queue[0]
-    }
-    isEmpty() {
-      return !this.queue.length
-    }
-  }
+let textBook = ['Algoritma','Sistem Operasi','Kompleksitas','Kalkulus'];
+
+const masuk = (judul) => {
+    textbook = textBook.unshift(judul);
+    console.log(textBook);
+}
+
+const buang = () => {
+    let dibuang = textBook.pop();
+    console.log(textBook);
+}
+
+masuk('Artificial intelligence');
+buang();
+
