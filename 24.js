@@ -6,7 +6,7 @@ const masuk = (judul) => {
 }
 
 const buang = () => {
-    let dibuang = textBook.pop();
+    let dibuang = textBook.shift();
     console.log(textBook);
 }
 
